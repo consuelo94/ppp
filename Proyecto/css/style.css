@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Nunito', sans-serif;
+    src: url(../Fonts/Nunito-Regular.ttf);
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    background-color: white;
+
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0px 20px;
+    z-index: 999;
+    border-bottom: solid black 3px;
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+}
+.logo{
+    text-decoration: none;
+}
+
+.logo img{
+    width: 15%;
+}
+
+.class .item{
+    text-decoration: none;
+}
+.menu {
+    background-color: rgb(57, 187, 57);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 3px;   
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+  .toggle {
+    order: 1;
+  }
+  .item.button {
+    order: 2;
+  }
+
+  .item {
+    display: block;
+    width: auto;
+  }
+
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .logo {
+    flex: 1;
+  }
+  .item {
+    order: 1;
+  }
+  .menu li{
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+  }
+
+  
+
+#home{
+    display: block;
+    padding: 0px 100px;
+    margin: 0px 0px 10px 0px;
+    background-color: rgb(223, 205, 146);
+    height: 530px;
+}
+
+#home .col{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#home p{
+    margin-top: 120px;
+    font-size: 3rem;
+    color: #1a1b15;
+    text-align: center;
+    font-weight: bold;
+}
+
+#home h2{
+    font-size: 4rem;
+    color: rgb(57, 187, 57);
+    text-align: center;
+}
+
+.home-img{
+    width: 120%;
+}
+
+#AboutUs{
+    display: block;
+    height: 190px;
+}
+
+.wave{
+    margin-top: -300px;
+}
+
+#AboutUs .col{
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+
+#conocenos{
+    border: rgb(223, 200, 124) solid 3px;
+    margin: 50px 20px 0px 10px;
+    background-color: rgb(223, 205, 146);
+}
+
+#Opiniones{
+    display: block;
+    width: 100%;
+    margin: 100px auto;
+    padding: 0px;
+    background-color: white;
+}
+
+#contact{
+    display: block;
+    margin: 50px;
+    padding: 20px;
+}
+
+#contact .col{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#consultanos{
+    margin: 100px;
+}
+
+#direccion{
+    padding: 20px;
+    text-align: right;
+}
+
+#formulario{
+    display: block;
+    width: 100%;
+    margin: 40px auto;
+}
+
+#formulario .col{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.input{
+    border: 2px solid #2666C7;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btn{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #2666C7;
+    color: white;
+    border-color: #2666C7;
+}
+
+#courses{
+    display: block;
+    width: 100%;    
+}
+
+#courses h1{
+    font-size: 30px;
+    color: black;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#courses .col{
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: rgb(223, 205, 146);
+    border: 3px solid black;
+    margin: 3px solid black;
+    padding: 3px;
+    height: 400px;
+    width: 300px;
+}
+
+#courses .img-courses{
+    width: 80%;
+}
+
+#courses p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#aboutUs{
+    margin-top: 0px;
+    text-align: center;
+    padding: 100px;
+    height: 400px;
+    
+}
+
+.nosotros{
+    border: rgb(224, 201, 122) solid 3px;
+    background-color: rgb(223, 205, 146);
+    margin: 0px 60px 0px 60px;
+    
+}
+
+    
+#Mision .col{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    background-color: rgb(223, 205, 146);
+    border: 3px solid rgb(214, 126, 126);
+    margin: 3px;
+    padding: 3px;
+    height: 400px;
+    width: 300px;
+}
+
+#Como{
+    display: block;
+    width: 100%;
+    
+}
+
+#Como h1{
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+#Como .col{
+    width: 41%;
+    float: left;
+    text-align: center;
+    background-color: rgb(57, 187, 57);
+    height: 650px;
+    padding: 10px 25px;
+    border: solid 5px black;
+    margin: 20px 60px;
+}
+
+#Como p{
+    font-size: 15px;
+    text-align: justify;
+}
+footer{
+    height: 100px;
+    padding: 0px 0px;
+    background: rgb(57, 187, 57);
+    text-align: center;
+    color: black;
+    clear: both;
+    display: flex;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+}
+
+footer .col{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    
+}
+footer .col p{
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+footer .col .img-footer{
+    width: 25%;
+}
+
+footer #transicion:hover{
+    transform: rotate(180°);
+}
+
